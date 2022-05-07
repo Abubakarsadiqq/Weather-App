@@ -1,0 +1,75 @@
+body{
+    font-family: Courier, sans-serif;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.banner{
+   height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75) ) , url('https://source.unsplash.com/1600x900/?landscape') ;
+    background-position:center;
+    background-size: cover;
+
+}
+.card{
+text-align: center;
+padding:20px  9px 9px 9px;
+color: white;
+background-color:#ffffff10;
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+max-width: 50%;
+height: auto;
+border-radius: 12px;
+font-size: 19px;
+margin:  auto;
+position: relative;
+top: 100px;
+}
+.search input{
+ border-radius: 8px;
+padding: 7px;
+color: black;
+font-size: 12px;
+font-weight: bold;
+border: 1px solid #f65314;
+text-transform: uppercase;
+}
+
+button{
+background-color: #f65314;
+color: white;
+border: none;
+width: 40px;
+height: 30px;
+border-radius: 10px;
+}
+
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+
+  }
+  
+
+.weather.loading:after{
+    visibility:visible;
+    content: "Loading ...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
