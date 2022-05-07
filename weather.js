@@ -51,15 +51,6 @@ document.querySelector('.search-button').addEventListener('keyup' , (event)=>{
         }
 
 
-      }
+      });
 
-
-)
-
-
-
-
-
-
-
-
+weather.fetchWeather("Denver");
