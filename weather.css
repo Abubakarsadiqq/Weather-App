@@ -72,3 +72,16 @@ border-radius: 10px;
    width:50%;
     }
 }
+
+@media(max-width:400px ){
+    
+    button{
+        background-color: #f65314;
+        margin-top:10px;
+     
+        }
+        
+
+}
+
+
