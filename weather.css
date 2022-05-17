@@ -7,7 +7,7 @@ body{
 .banner{
    height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75) ) ;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ) ;
     background-position:center;
     background-size: cover;
 
@@ -19,7 +19,7 @@ color: white;
 background-color:#ffffff10;
 backdrop-filter: blur(12px);
 -webkit-backdrop-filter: blur(12px);
-max-width: 57%;
+width: 62%;
 height: auto;
 border-radius: 12px;
 font-size: 19px;
@@ -27,13 +27,14 @@ margin:  auto;
 position: relative;
 top: 100px;
 }
+
 .search input{
  border-radius: 8px;
-padding: 7px;
+padding: 9px;
 color: black;
 font-size: 12px;
 font-weight: bold;
-border: 1px solid #f65314;
+border: 2px solid #f65314;
 text-transform: uppercase;
 }
 
@@ -66,10 +67,8 @@ border-radius: 10px;
 }
 
 
-
-
-
-
-
-
-
+@media(min-width:900px){
+    .card{
+   width:50%;
+    }
+}
